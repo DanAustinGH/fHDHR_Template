@@ -19,11 +19,6 @@
                           "value": "None,blocks,origin",
                           "config_file": false,
                           "config_web": false
-                        },
-          "required":{
-                          "value": "none",
-                          "config_file": false,
-                          "config_web": false
                         }
   },
   "fhdhr":{
@@ -31,16 +26,6 @@
                     "value": "fHDHR-TEMPLATE",
                     "config_file": true,
                     "config_web": true
-                },
-          "stream_type":{
-                              "value": "direct",
-                              "config_file": true,
-                              "config_web": true
-                              },
-          "tuner_count":{
-                  "value": 4,
-                  "config_file": true,
-                  "config_web": true
                 },
           "reporting_firmware_name":{
                                     "value": "fHDHR_TEMPLATE",
@@ -50,21 +35,10 @@
   },
   "epg":{
           "method":{
-                    "value": "blocks",
-                    "config_file": true,
-                    "config_web": true
-                },
-          "update_frequency":{
-                    "value": 14400,
+                    "value": "origin",
                     "config_file": true,
                     "config_web": true
                 }
   },
-  "template":{
-          "force_best":{
-                    "value": false,
-                    "config_file": true,
-                    "config_web": true
-                }
-  }
+  "template":{}
 }
